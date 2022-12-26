@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-page: #EAEAEA;
+    --bg-recipe:#FFFFFF;
+    --title-subtitle: #1B1B1B;
+    --footer-legend: #8F8F8F;
+    --any-texts: #39393A;
+}
+
+body {
+    background: var(--bg-page);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: var(--title-subtitle);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--title-subtitle);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p, li {
+    font-size: 1.6rem;
+    color: var(--any-texts);
+    text-align: left;
+    margin-block: 1rem;
+}
+
+footer, figcaption {
+    font-size: 1.2rem;
+    color: var(--footer-legend);
+}
+
+figcaption {
+    text-align: right;
+}
+
+li {
+    line-height: 2.6rem;
+    list-style-position: inside;
+}
+
+figure {
+    width: min-content;
+    margin-inline: auto;
+}
+
+img {
+    width: 50vw;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+
+footer p {
+    margin-top: auto;
+    text-align: center;
+}
+
+.recipe {
+    margin: 20px auto;
+    width: 60vw;
+    border-radius: 1rem;
+    background-color: var(--bg-recipe);
+    padding: 20px;
+}
